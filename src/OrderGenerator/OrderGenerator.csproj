@@ -72,7 +72,7 @@
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Models\ExecutionReportResult.cs" />
+    <Compile Include="Contracts\ExecutionReportResult.cs" />
     <Compile Include="Models\OrderViewModel.cs" />
     <Compile Include="Order\Send.aspx.cs">
       <DependentUpon>Send.aspx</DependentUpon>

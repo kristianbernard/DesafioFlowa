@@ -3,7 +3,7 @@ using System.Diagnostics;
 using QuickFix;
 using QuickFix.Fields;
 using QuickFix.Transport;
-using OrderGenerator.Models;
+using OrderGenerator.Contracts;
 using FIX44 = QuickFix.FIX44;
 
 namespace OrderGenerator.Services;

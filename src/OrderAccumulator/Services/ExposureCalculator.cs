@@ -1,4 +1,4 @@
-namespace OrderAccumulator.Models;
+namespace OrderAccumulator.Services;
 
 public class ExposureCalculator
 {

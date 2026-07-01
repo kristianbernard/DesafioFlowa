@@ -24,7 +24,11 @@ DesafioFlowa/
 │   │   ├── fix_generator.cfg
 │   │   ├── Properties/
 │   │   ├── Models/
+│   │   │   └── OrderViewModel.cs        # ViewModel do formulário
+│   │   ├── Contracts/
+│   │   │   └── ExecutionReportResult.cs # DTO de retorno da ordem
 │   │   ├── Services/
+│   │   │   └── FixInitiatorService.cs   # Conexão FIX (Initiator)
 │   │   └── Order/
 │   │       ├── Send.aspx / .cs          # Formulário de envio
 │   │       └── Result.aspx / .cs        # Resultado da ordem
@@ -33,8 +37,8 @@ DesafioFlowa/
 │       ├── Program.cs
 │       ├── FixAcceptorApp.cs
 │       ├── fix_accumulator.cfg
-│       └── Models/
-│           └── ExposureCalculator.cs
+│       └── Services/
+│           └── ExposureCalculator.cs    # Cálculo de exposição
 ├── .gitignore
 └── README.md
 ```

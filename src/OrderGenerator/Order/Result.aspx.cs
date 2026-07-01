@@ -1,4 +1,4 @@
-using OrderGenerator.Models;
+using OrderGenerator.Contracts;
 
 namespace OrderGenerator.Order;
 

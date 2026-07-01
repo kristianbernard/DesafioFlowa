@@ -1,4 +1,4 @@
-namespace OrderGenerator.Models;
+namespace OrderGenerator.Contracts;
 
 public class ExecutionReportResult
 {

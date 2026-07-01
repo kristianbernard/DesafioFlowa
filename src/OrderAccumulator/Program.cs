@@ -1,6 +1,6 @@
 ﻿using QuickFix;
 using OrderAccumulator;
-using OrderAccumulator.Models;
+using OrderAccumulator.Services;
 
 var configPath = args.Length > 0 ? args[0] : Path.Combine(AppContext.BaseDirectory, "fix_accumulator.cfg");
 

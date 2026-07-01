@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using QuickFix;
 using QuickFix.Fields;
-using OrderAccumulator.Models;
+using OrderAccumulator.Services;
 using FIX44 = QuickFix.FIX44;
 
 namespace OrderAccumulator;
